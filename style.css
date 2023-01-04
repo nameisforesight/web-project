@@ -1,0 +1,127 @@
+@import  url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #02000A;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  height: 8vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.logo{
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.logo span {
+  color: red;
+  font-size: 35px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+nav ul li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: red;
+  transition: .3s;
+}
+
+.post-box {
+  margin: 20px 20px 0px 0px;
+}
+
+.post-thumb img {
+  float: left;
+  clear: left;
+  margin-right: 8px;
+}
+
+.post-content {
+  float: left;
+  margin-left: 8px;
+}
+
+.post-info {
+  float: left;
+  margin-left: 8px;
+  color: dimgray;
+}
+
+.post-link a {
+  padding: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.post-link a:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.post-box2 {
+  margin: 20px 20px 0px 0px;
+}
+
+.post-thumb2 img {
+  padding-top: 18px;
+  height: 35vh;
+  width: 57%;
+  float: left;
+  clear: left;
+  margin-right: 8px;
+}
+
+.post-content2 {
+  float: left;
+  margin-left: 8px;
+}
+
+.post-info2 {
+  color: dimgray;
+  float: left;
+  margin-left: 8px;
+}
+
+.post-link2 a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.post-link2 a:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.clear {
+  clear: both;
+}
+
