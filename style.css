@@ -67,6 +67,7 @@ nav ul li a:hover {
 }
 
 .post-info {
+  padding-top: 15px;
   float: left;
   margin-left: 8px;
   color: dimgray;
